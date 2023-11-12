@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Head Section*/
+.container{
+    min-height:100vh;
+    border:10px solid #1d1e4c;
+}
+.content{
+    margin: 0 20vw;
+}
+.title_content{
+    display: flex;
+    margin-top: 15vh;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.title_content h1{
+    font-size: 7vh;
+    color: #1d1e4c;
+}
+.title_content h4{
+    font-size: 5vh;
+    text-align: end;
+}
+.img_content img{
+    border-radius: 50%;
+    width:20vw;
+}
+/* Bio Section*/
+.bio_section{
+    margin-top: 5vh;
+}
+.bio_section h1{
+    font-size: 12vh;
+}
+.bio_section p{
+    margin-top: 5vh;
+    font-size: 3vh;
+    letter-spacing: 2px;
+    word-spacing: 2px;      
+    line-height: 1.5    ;
+}
+.bio_section h4{
+    margin-top: 5vh;
+    font-size: 4vh;
+}
+.bio_section ul{
+    margin-top: 3vh;
+    margin-left: 5vw;
+    line-height: 2;
+    font-size: 2.5vh;
+}
+/* Footer Section*/
+footer{
+    font-size: 2.5vh;
+    margin-top: 5vh;
+    text-align: end;
+    margin-bottom: 5vh;
+}
